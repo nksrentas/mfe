@@ -16,7 +16,7 @@ const prodConfig = {
       name: 'container',
       filename: 'remoteEntry.js',
       remotes: {
-        marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
+        marketing: `marketing@${domain}/marketing/remoteEntry.js`,
       },
       shared: pgk.dependencies,
     }),
